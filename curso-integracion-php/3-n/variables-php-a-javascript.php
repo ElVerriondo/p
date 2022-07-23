@@ -41,7 +41,7 @@ let mostrar = getId("test");
 
 let users = JSON.parse('<?= json_encode($usuarios) ?>');
 
-
+console.log(users);
 
 </script>
 </body>
