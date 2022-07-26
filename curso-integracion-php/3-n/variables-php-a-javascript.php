@@ -17,6 +17,8 @@ $usuarios = array(
     )
 );
 
+$edad_xd = 12;
+
 ?>
 
 <!DOCTYPE html>
@@ -40,6 +42,8 @@ function getId(id){
 let mostrar = getId("test"); 
 
 let users = JSON.parse('<?= json_encode($usuarios) ?>');
+
+let edadXd = <?= $edad_xd ?>;
 
 console.log(users);
 
