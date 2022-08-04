@@ -10,6 +10,9 @@
 <body>
     <div class="main">
 
+        <div class="alert danger">Algo salió mal</div>
+        <div class="alert sucsses">Éxito al enviar el formulario</div>
+
         <div class="form-container">
             <form action="#">
                 <h1>Contactanos!</h1>
